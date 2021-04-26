@@ -1,0 +1,14 @@
+.visibility {
+	visibility: hidden;
+	opacity: 0%;
+}
+
+.size {
+	font-size: 3rem;
+}
+
+.toggleTransition {
+	transition-property: opacity visibility size;
+	transition-duration: 1000ms;
+	transition-timing-function: ease-in-out;
+}
